@@ -1,0 +1,9 @@
+Areas to explore
+
+- Feature Engineering (Selection And/Or Creation And/Or Elimination) => Domain Knowledge
+- Ordinality Enumeration vs Curse of Dimensionality => Problem where you don't have a complete list of each symbol
+- Diff ML Algo/Models
+
+
+- Feature Creation - analyse manual wrappers
+- feature selection - RFE

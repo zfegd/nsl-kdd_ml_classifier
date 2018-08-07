@@ -1,0 +1,24 @@
+Cat 1 - Binary Classifier (Small Training Set, Random Sample 200 of Test Set, Metrics= Accuracy, All Features, Avg of 5 attempts)
+
+RF (n=100)              ~ 0.436
+RF (n=50)               ~ 0.424
+SVC(rbf)                ~ 0.420
+RF (n=10)               ~ 0.413
+SVC(rbf w minmax pp)    ~ 0.410
+SVC(rbf w maxabs pp)    ~ 0.403
+SVC(linear w maxabs pp) ~ 0.400
+RF (n=200)              ~ 0.384
+SVC(linear w minmax pp) ~ 0.365
+SVC(linear)             ~ 0.320
+
+Cat 2 - Multi Class Classifier (Small Training Set, Random Sample 200 of Test Set, Metrics= Accuracy, All Features, Avg of 5 attempts)
+
+RF (n=50)               ~ 0.730
+SVC(rbf 3 feats wrapper)~ 0.730
+RF (n=100)              ~ 0.720
+RF (n=200)              ~ 0.720
+SVC(rbf 2 feats wrapper)~ 0.705
+RF (n=10)               ~ 0.700
+SVC(linear)             ~ 0.699
+SVC(rbf)                ~ 0.588
+
